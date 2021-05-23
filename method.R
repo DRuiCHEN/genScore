@@ -16,11 +16,12 @@
 #'   the corresponding V(B).
 #' @param echo_iter a logical indicating whether to echo during the iteration
 #'   process.
-#' @return A list of s: a logical vector indicating whether to include the
-#'   source units; t: a logical vector indicating whether to include the target
-#'   units; thres: the threshold used in determining the subpopulation; thr: a
-#'   vector of thresholds; avar: a vector of V(B) estimates corresponding to
-#'   thr.
+#' @return A list of 
+#'   s: a logical vector indicating whether to include the source units; 
+#'   t: a logical vector indicating whether to include the target units; 
+#'   thres: the threshold used in determining the subpopulation; 
+#'   thr: a vector of thresholds; 
+#'   avar: a vector of V(B) estimates corresponding to thr.
 get_subpop <- function(rho, ps, 
                        y_sigma_sq = 1,
                        thres, 
